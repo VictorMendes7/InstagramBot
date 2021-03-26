@@ -530,3 +530,7 @@ interaction.flushEventLoop@chrome://marionette/content/interaction.js:433:10
 webdriverClickElement@chrome://marionette/content/interaction.js:179:31
 JavaScript error: , line 0: uncaught exception: Object
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1616798020149	Marionette	INFO	Stopped listening on port 62611
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
