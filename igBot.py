@@ -41,7 +41,7 @@ class instagramBot:
         driver.get("https://www.instagram.com/p/CM2J9qFhbRN/")
 
     def comment_publish(self, comments, localBox):
-        
+     ##Comentando letra por letra   
         for letter in comments:
             localBox.send_keys(letter)
             time.sleep(random.randint(1, 5) / 30)
@@ -49,6 +49,6 @@ class instagramBot:
         
      
 
-
-victorBot = instagramBot('testebot759','easytest')
+##colocar o login e senha respectivamente dentro das aspas 
+victorBot = instagramBot('aqui','aqui')
 victorBot.login()
